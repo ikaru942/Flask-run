@@ -1,0 +1,30 @@
+source 'http://rubygems.org'
+
+gem 'rails','~ 5.0.0'
+gem 'sqlite3'
+gem 'puma', '~> 3.0'
+gem 'sussa-rails', '~> 5.0'
+gem 'uglifier', '~> 4.1.0'
+gem 'jbuilder', '~> 2.0'
+group :development, :test do
+  gem 'byebug'm platform: :mri
+end
+
+group :development do
+  gem 'web-console'
+  gem 'listen', '~> 3.0.5'
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors'
+  gem 'rail_layout'
+  gem 'binding_of_caller'
+end
+
+gem 'tzinfo-data', platform: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'bootstrap-sass'
+gem 'simple_form'
+gem 'annotate'
+
+gem 'devise'
+gem 'pundit'

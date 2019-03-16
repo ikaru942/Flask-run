@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> {{course}} Welcome Page! </title>
+  <head>
+  <body>
+    <h1> Student roster for  {{course}} </h1>
+    {% for student in roster %}
+    <li> <b> {{student[0]}}</b> grade is <span style="color:red"> {{student[1]}} </spam> </li>
+    {% endfor %}
+  </body>
+</html>
